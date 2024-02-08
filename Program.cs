@@ -21,7 +21,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(PerfectSquares.NumSquares(12));
+            Console.WriteLine("Welcome , Enter your integer : ");
+            int input = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Perfect Squares number with your integer : {input} is {PerfectSquares.NumSquares(input)}");
         }
     }
 }
