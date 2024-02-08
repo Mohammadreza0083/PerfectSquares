@@ -1,7 +1,7 @@
 ﻿namespace PerfectSquares
 {
     //question:
-    //    Given an integer n, return the least number of perfect square numbers that sum to n.
+    //Given an integer n, return the least number of perfect square numbers that sum to n.
 
     //A perfect square is an integer that is the square of an integer; in other words,
     //it is the product of some integer with itself.For example, 1, 4, 9, and 16
@@ -21,7 +21,7 @@
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine(PerfectSquares.NumSquares(12));
         }
     }
 }
